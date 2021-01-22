@@ -123,6 +123,8 @@ img#iphone-img {
         order: -1;
         width: 100%;
         z-index: -1;
+        height: 500PX;
+
 }
     .signup-left {
         width: 100%;
