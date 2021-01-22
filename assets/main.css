@@ -21,16 +21,6 @@ ul li {
     --orange: rgb(236, 101, 33);
 }
 
-/* nav */
-
-nav {
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px;
-    z-index: 2;
-}
-
 /* main */
 
 .signup {
@@ -104,6 +94,7 @@ button.form-btn {
 .iphone {
     display: flex;
     justify-content: center;
+    max-width: 400px;
 }
 
 img#iphone-img {
@@ -131,7 +122,6 @@ img#iphone-img {
     .signup-right {
         order: -1;
         width: 100%;
-        margin-top: -100px;
         z-index: -1;
 }
     .signup-left {
